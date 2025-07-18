@@ -3,9 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Michael Johnson - Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>MICHAEL</h1>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="profile-image">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face" alt="Michael Johnson" id="profileImg">
+            </div>
+            <div class="profile-info">
+                <h1 class="name">Michael Johnson</h1>
+                <p class="title">Full Stack Developer & Tech Enthusiast</p>
+                <p class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- About Section -->
+            <section class="section about">
+                <div class="section-header">
+                    <h2><i class="fas fa-user"></i> About Me</h2>
+                </div>
+                <div class="section-content">
+                    <p>A passionate full-stack developer with 5 years of software development experience. Skilled in both frontend and backend development, I'm always curious about new technologies and love solving complex technical problems. Committed to creating user-friendly applications and efficient system solutions.</p>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="section education">
+                <div class="section-header">
+                    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                </div>
+                <div class="section-content">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2018 - 2022</div>
+                            <div class="timeline-content">
+                                <h3>Bachelor of Science in Computer Science</h3>
+                                <p class="institution">University of California, Berkeley</p>
+                                <p class="description">Major coursework: Data Structures, Algorithm Design, Software Engineering, Database Systems, Computer Networks</p>
+                                <p class="achievement">GPA: 3.8/4.0 | Magna Cum Laude</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2022 - 2024</div>
+                            <div class="timeline-content">
+                                <h3>Master of Science in Software Engineering</h3>
+                                <p class="institution">Stanford University</p>
+                                <p class="description">Specialization: Artificial Intelligence & Machine Learning, Distributed Systems Design</p>
+                                <p class="achievement">Research Project: Intelligent Recommendation System Based on Deep Learning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Work Experience Section -->
+            <section class="section experience">
+                <div class="section-header">
+                    <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+                </div>
+                <div class="section-content">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024 - Present</div>
+                            <div class="timeline-content">
+                                <h3>Senior Full Stack Developer</h3>
+                                <p class="institution">Google</p>
+                                <ul class="achievements">
+                                    <li>Responsible for developing and maintaining core search platform features, handling 100+ million daily user requests</li>
+                                    <li>Built high-performance microservices architecture using React, Node.js, and PostgreSQL</li>
+                                    <li>Optimized system performance, reducing page load time by 40%</li>
+                                    <li>Led a 5-person team to complete mobile application refactoring project</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2022 - 2024</div>
+                            <div class="timeline-content">
+                                <h3>Frontend Developer</h3>
+                                <p class="institution">Meta (Facebook)</p>
+                                <ul class="achievements">
+                                    <li>Developed and maintained user interfaces for social media platforms</li>
+                                    <li>Built responsive web applications using React and TypeScript</li>
+                                    <li>Participated in establishing design systems, improving development efficiency by 30%</li>
+                                    <li>Assisted in backend API design and database optimization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hobbies Section -->
+            <section class="section hobbies">
+                <div class="section-header">
+                    <h2><i class="fas fa-heart"></i> Hobbies</h2>
+                </div>
+                <div class="section-content">
+                    <div class="hobbies-grid">
+                        <div class="hobby-card">
+                            <i class="fas fa-code"></i>
+                            <h3>Programming</h3>
+                            <p>Love exploring new programming languages and frameworks, contributing to open-source projects in my spare time</p>
+                        </div>
+                        <div class="hobby-card">
+                            <i class="fas fa-camera"></i>
+                            <h3>Photography</h3>
+                            <p>Passionate about street and landscape photography, capturing beautiful moments in life through my lens</p>
+                        </div>
+                        <div class="hobby-card">
+                            <i class="fas fa-mountain"></i>
+                            <h3>Hiking</h3>
+                            <p>Enjoy the sense of achievement from conquering peaks, having climbed Mount Whitney, Half Dome, and other famous mountains</p>
+                        </div>
+                        <div class="hobby-card">
+                            <i class="fas fa-book"></i>
+                            <h3>Reading</h3>
+                            <p>Enjoy reading technical books, science fiction novels, and philosophical works, maintaining a lifelong learning attitude</p>
+                        </div>
+                        <div class="hobby-card">
+                            <i class="fas fa-music"></i>
+                            <h3>Music</h3>
+                            <p>Amateur guitarist who enjoys playing folk and classical music, music is my source of inspiration</p>
+                        </div>
+                        <div class="hobby-card">
+                            <i class="fas fa-gamepad"></i>
+                            <h3>Gaming</h3>
+                            <p>Strategy game and indie game enthusiast, also interested in game development and interactive design</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Thoughts Section -->
+            <section class="section thoughts">
+                <div class="section-header">
+                    <h2><i class="fas fa-lightbulb"></i> Some Thoughts</h2>
+                </div>
+                <div class="section-content">
+                    <div class="thoughts-container">
+                        <div class="thought-card">
+                            <h3>About Technology</h3>
+                            <p>"Technology is not just a tool, but a force that changes the world. Every line of code can potentially impact thousands of people's lives. As developers, we have the responsibility to create valuable and meaningful products."</p>
+                        </div>
+                        <div class="thought-card">
+                            <h3>About Learning</h3>
+                            <p>"In this rapidly changing era, maintaining a passion for learning is more important than mastering specific technologies. Curiosity is the best teacher - never stop exploring and questioning."</p>
+                        </div>
+                        <div class="thought-card">
+                            <h3>About Teamwork</h3>
+                            <p>"One person can go fast, but a group of people can go far. The best code is the result of team collaboration, and good communication is more important than perfect algorithms."</p>
+                        </div>
+                        <div class="thought-card">
+                            <h3>About the Future</h3>
+                            <p>"Artificial Intelligence is reshaping our world. As developers, we must both embrace change and consider the ethical implications of technology. Technology for good is our mission."</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Michael Johnson. Thank you for visiting!</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
